@@ -1,7 +1,7 @@
 {
   "name": "newyearproject",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -9,15 +9,22 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vant": "^2.12.6",
+    "vue": "^2.6.12",
+    "vue-json-viewer": "^2.2.18"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "axios": "^0.21.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^5.0.0",
+    "qs": "^6.9.6",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
